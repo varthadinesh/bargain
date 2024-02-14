@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/bargain/static/css/main.17524ec8.css",
+    "main.js": "/bargain/static/js/main.3a3ee395.js",
+    "static/media/banner3.jpg": "/bargain/static/media/banner3.9ab05bf3a5d68e110438.jpg",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/bargain/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/lehanga.jpeg": "/bargain/static/media/lehanga.f0fcc11312e0773bce7c.jpeg",
+    "static/media/banner4.jpeg": "/bargain/static/media/banner4.6e4044187a4473fb535a.jpeg",
+    "static/media/fontawesome-webfont.eot": "/bargain/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/bargain/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/paypal.webp": "/bargain/static/media/paypal.045797956258fb2c8e42.webp",
+    "static/media/banner1.jpg": "/bargain/static/media/banner1.669d9c5f09ffd5b3c8a9.jpg",
+    "static/media/sarees.webp": "/bargain/static/media/sarees.cdf72d2c5871304b222d.webp",
+    "static/media/jewelry.jpg": "/bargain/static/media/jewelry.65baa32bbf6fb389b41e.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/bargain/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/bargain/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/highendcouture.jpg": "/bargain/static/media/highendcouture.11eadfcb6cca3ff474b1.jpg",
+    "static/media/boy.webp": "/bargain/static/media/boy.1d4d25e68a05a44d5e56.webp",
+    "static/media/visa.webp": "/bargain/static/media/visa.c14406d4f1be3210aa89.webp",
+    "static/media/dresses.webp": "/bargain/static/media/dresses.605d2d50fa2ad8f88293.webp",
+    "static/media/books.avif": "/bargain/static/media/books.b441168e1e058d8bb055.avif",
+    "static/media/mastercard.png": "/bargain/static/media/mastercard.414245d0833c064c9f86.png",
+    "static/media/banner2.webp": "/bargain/static/media/banner2.cf9b5059cd5762d39081.webp",
+    "static/media/women.avif": "/bargain/static/media/women.ca2c8b51694351f54a01.avif",
+    "static/media/twinningoutfits.jpg": "/bargain/static/media/twinningoutfits.f5990d43dde5170e9058.jpg",
+    "static/media/discover.jpg": "/bargain/static/media/discover.d481b07a719fca9eea8e.jpg",
+    "static/media/girl.avif": "/bargain/static/media/girl.c4a04079e090c83324c4.avif",
+    "static/media/kids11.avif": "/bargain/static/media/kids11.8f11585b3d847a1e1523.avif",
+    "static/media/indianflag.webp": "/bargain/static/media/indianflag.90ae6ce10e799e3475e1.webp",
+    "index.html": "/bargain/index.html",
+    "main.17524ec8.css.map": "/bargain/static/css/main.17524ec8.css.map",
+    "main.3a3ee395.js.map": "/bargain/static/js/main.3a3ee395.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.17524ec8.css",
+    "static/js/main.3a3ee395.js"
+  ]
+}
