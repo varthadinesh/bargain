@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/bargain/static/css/main.5cfc0a5b.css",
-    "main.js": "/bargain/static/js/main.8680c809.js",
+    "main.css": "/bargain/static/css/main.5036b43b.css",
+    "main.js": "/bargain/static/js/main.e1aff6db.js",
     "static/media/banner3.jpg": "/bargain/static/media/banner3.9ab05bf3a5d68e110438.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/bargain/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
     "static/media/lehanga.jpeg": "/bargain/static/media/lehanga.f0fcc11312e0773bce7c.jpeg",
@@ -26,12 +26,15 @@
     "static/media/Womens-Apparels-1.jpg": "/bargain/static/media/Womens-Apparels-1.ce0757bebf3890f96b6b.jpg",
     "static/media/girl.avif": "/bargain/static/media/girl.c4a04079e090c83324c4.avif",
     "static/media/kids11.avif": "/bargain/static/media/kids11.8f11585b3d847a1e1523.avif",
+    "static/media/revicons.eot": "/bargain/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/bargain/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/bargain/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/bargain/index.html",
-    "main.5cfc0a5b.css.map": "/bargain/static/css/main.5cfc0a5b.css.map",
-    "main.8680c809.js.map": "/bargain/static/js/main.8680c809.js.map"
+    "main.5036b43b.css.map": "/bargain/static/css/main.5036b43b.css.map",
+    "main.e1aff6db.js.map": "/bargain/static/js/main.e1aff6db.js.map"
   },
   "entrypoints": [
-    "static/css/main.5cfc0a5b.css",
-    "static/js/main.8680c809.js"
+    "static/css/main.5036b43b.css",
+    "static/js/main.e1aff6db.js"
   ]
 }
