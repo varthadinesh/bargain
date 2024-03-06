@@ -9,18 +9,18 @@ export const CartProvider = ({ children }) => {
   const [wishItems, setWishItems] = useState([]);
   const [selectedWishlistItems, setSelectedWishlistItems] = useState([]);
   const [values, setValues] = useState({
-    producttype: "",
-    category: "",
-    productname: "",
-    productdescription: "",
-    productimageurl: "",
-    location: "",
-    color: "",
-    alteration: "",
-    size: "",
-    measurements: "",
-    worn: "",
-    price: "",
+    producttype: "women",
+    category: "sarees",
+    productname: "Silk Saree With Maggam Work Blouse",
+    productdescription: "Silk Saree With Maggam Work Blouse",
+    productimageurl: "https://in.ourpunarvi.com/images/thumbs/0112265_silk-saree-with-maggam-work-blouse_550.jpeg",
+    location: "India",
+    color: "Orange",
+    alteration: "Yes",
+    size: "S",
+    measurements: "32",
+    worn: 1,
+    price: 4500,
   });
 
   const [user, setUser] = useState(() => {
