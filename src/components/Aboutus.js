@@ -34,7 +34,7 @@ export default function Aboutus() {
           these beautifully designed clothes to have a second chance to shine.
           This is a space where both buyers and sellers can connect and sell and
           shop for clothes, they can save effort, nature, time, and money.
-          Punarvi is a sustainable platform and an attempt from our side to help
+          Bargain is a sustainable platform and an attempt from our side to help
           others thrift Indian ethnic wear and give back to the environment even
           if it is in a minuscule way. Customers will not only have the power to
           create change, but they will also find awesome deals on all the latest
