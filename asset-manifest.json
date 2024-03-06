@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/bargain/static/css/main.259f9afb.css",
-    "main.js": "/bargain/static/js/main.2306551b.js",
+    "main.js": "/bargain/static/js/main.f5514a2f.js",
     "static/media/young-woman-with-shopping-bags-beautiful-dress-hat.jpg": "/bargain/static/media/young-woman-with-shopping-bags-beautiful-dress-hat.99977eeb6e01e3c87b09.jpg",
     "static/media/banner3.jpg": "/bargain/static/media/banner3.9ab05bf3a5d68e110438.jpg",
     "static/media/fontawesome-webfont.svg?v=4.7.0": "/bargain/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
@@ -31,10 +31,10 @@
     "static/media/revicons.woff": "/bargain/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/bargain/index.html",
     "main.259f9afb.css.map": "/bargain/static/css/main.259f9afb.css.map",
-    "main.2306551b.js.map": "/bargain/static/js/main.2306551b.js.map"
+    "main.f5514a2f.js.map": "/bargain/static/js/main.f5514a2f.js.map"
   },
   "entrypoints": [
     "static/css/main.259f9afb.css",
-    "static/js/main.2306551b.js"
+    "static/js/main.f5514a2f.js"
   ]
 }
