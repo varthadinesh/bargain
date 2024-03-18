@@ -22,7 +22,7 @@ export default function Menu() {
               aria-controls="flush-collapseTwo"
             >
               <div>
-                <span> <b>WOMEN</b></span>
+                <span> <b>WOMENS</b></span>
               </div>
             </button>
           </h2>
@@ -36,7 +36,7 @@ export default function Menu() {
               <ul className="list-group">
                 <Link to='/highendcouture' className="text-decoration-none text-dark"><li className="list-group-item">High end Couture</li></Link>
                 <Link to='/sarees' className="text-decoration-none text-dark"><li className="list-group-item">Sarees</li></Link>
-                <Link to='/lehanga' className="text-decoration-none text-dark"><li className="list-group-item">Lehengas</li></Link>
+                <Link to='/lehenga' className="text-decoration-none text-dark"><li className="list-group-item">Lehengas</li></Link>
                 <Link to='/dresses' className="text-decoration-none text-dark"><li className="list-group-item">Dresses</li></Link>
                 <Link to='/twinningoutfits' className="text-decoration-none text-dark"><li className="list-group-item">Twinning Outfits</li></Link>
 

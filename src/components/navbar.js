@@ -99,7 +99,7 @@ const MyNavbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                WOMEN
+                WOMENS
               </Link>
               <div
                 className="dropdown-menu"
@@ -113,7 +113,7 @@ const MyNavbar = () => {
                   Sarees
                 </Link>
                 <Link className="dropdown-item" to="/lehanga">
-                  Lehenga
+                  Lehengas
                 </Link>
                 <Link className="dropdown-item" to="/dresses">
                   Dresses
@@ -164,7 +164,7 @@ const MyNavbar = () => {
                 aria-haspopup="true"
                 aria-expanded="false"
               >
-                JEWELRY
+                JEWELLERY
               </Link>
               <div
                 className="dropdown-menu"

@@ -4,27 +4,35 @@ import Menu from "../menu";
 import Filterdisplaynav from "../filterdisplaynav";
 import { Link } from "react-router-dom";
 import Product from "../Product";
-import axios from "axios";
 import Pagination from "../pagination";
 import Footer from "../footer";
+import productList from '../Products.json'
 
-// import Filter from '../ki/filter';
 
 const Booksallcollection = () => {
+    // eslint-disable-next-line no-unused-vars
   const [products, setProducts] = useState([]);
   const [pageSize, setPageSize] = useState(6);
   const [currentPage, setCurrentPage] = useState(1);
   // eslint-disable-next-line no-unused-vars
   const [viewRowIndex, setViewRowIndex] = useState(null);
+  const [filteredProducts, setFilteredProducts] = useState([]);
+
+  // useEffect(() => {
+  //   axios
+  //     .get("http://localhost:8080/books")
+  //     .then((res) => {
+  //       if (res.data !== "Fail" && res.data !== "Error") {
+  //         setProducts(res.data);
+  //       }
+  //     })
+  //     .catch((err) => console.log(err));
+  // }, []);
   useEffect(() => {
-    axios
-      .get("http://localhost:8080/books")
-      .then((res) => {
-        if (res.data !== "Fail" && res.data !== "Error") {
-          setProducts(res.data);
-        }
-      })
-      .catch((err) => console.log(err));
+    setProducts(productList.filter((item) => item.producttype === "books"));
+    setFilteredProducts(
+      productList.filter((item) => item.producttype === "books")
+    );
   }, []);
   useEffect(() => {
     setCurrentPage(1);
@@ -33,7 +41,7 @@ const Booksallcollection = () => {
 
   const startIndex = (currentPage - 1) * pageSize;
   const endIndex = startIndex + pageSize;
-  const tableData = products.slice(startIndex, endIndex);
+  const tableData = filteredProducts.slice(startIndex, endIndex);
   return (
     <div className="fullscreen">
       <MyNavbar />
@@ -52,7 +60,7 @@ const Booksallcollection = () => {
         <div className="col-xs-12 col-md-12 col-lg-10 ps-lg-3">
           <Filterdisplaynav pageSize={pageSize} setPageSize={setPageSize} />
 
-          <div className="d-flex flex-wrap  justify-content-around gap-3">
+          <div className="d-flex flex-wrap  justify-content-around gap-3 mt-5">
           {tableData.length > 0 ? (
               tableData.map((product, index) => (
                 <Product
@@ -67,7 +75,7 @@ const Booksallcollection = () => {
             )}
           </div>
           <Pagination
-            stateData={products}
+            stateData={filteredProducts}
             pageSize={pageSize}
             setViewRowIndex={setViewRowIndex}
             currentPage={currentPage}
