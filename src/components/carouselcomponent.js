@@ -1,39 +1,49 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Carousel from "react-bootstrap/Carousel";
-// import banner1 from '../images/Clothing-boutique-names-banner.webp';
-// import banner1 from "../images/test3.jpg"
-// import banner2 from "../images/kids-fashion.jpg";
-// import banner3 from "../images/banner3.jpg";
-// import banner4 from "../images/banner4.jpeg";
-import banner1 from "../images/women-banner-main.jpg"
-import banner2 from "../images/kids-banner-main.jpg";
-import banner3 from "../images/1.jpg";
-import banner4 from "../images/banner4.jpeg";
+
+import womendesktop from "../images/women-desktop22.jpg"
+import kidsdesktop from "../images/kids-desktop111.jpg";
+import jewellerydesktop from "../images/jewellery-desktop1.jpg";
+import booksdesktop from "../images/books-desktop111.jpg";
+import womenmobile from "../images/women-mobile444.jpg";
+import womentablet from "../images/women-tablet111.jpg";
+import kidsmobile from "../images/kids-mobile22.jpg";
+import kidstablet from "../images/kids-tablet.jpg";
+import jewellerymobile from "../images/jewellery-mobile2.jpg";
+import jewellerytablet from "../images/jewellery-tablet1.jpg";
+import booksmobile from "../images/books-mobile1.jpg";
+import bookstablet from "../images/books-tablet.jpg";
 
 function CarouselComponent() {
+  const windowWidth = window.innerWidth;
+  const isMobile = windowWidth <= 767;
+  const isTablet = windowWidth >= 768 && windowWidth <= 1024;
   return (
     <div>
     <Carousel>
     <Carousel.Item>
       <div className='image-container'>
       <img
-        className="d-block w-100 banner"
-        src={banner1}
-        alt="First slide"
-      />
+              className="d-block"
+              style={{ width: "100%", height: "100%", objectFit: "cover",backgroundRepeat:"no-repeat"}}
+              src={isMobile ? womenmobile : (isTablet ? womentablet : womendesktop)}
+              alt="First slide"
+            />
       </div>
+      
       <Carousel.Caption>
         <h3 className='bannerHead'>Womens Fashion</h3>
       </Carousel.Caption>
     </Carousel.Item>
     <Carousel.Item>
     <div className='image-container'>
-      <img 
-        className="d-block w-100 banner"
-        src={banner2}
-        alt="Second slide"
-      />
+            <img
+              className="d-block"
+              style={{ width: "100%", height: "100%", objectFit: "cover",backgroundRepeat:"no-repeat"}}
+              src={isMobile ? kidsmobile : (isTablet ? kidstablet : kidsdesktop)}
+              alt="First slide"
+            />
       </div>
 
       <Carousel.Caption>
@@ -43,11 +53,12 @@ function CarouselComponent() {
     <Carousel.Item>
     <div className='image-container'>
 
-      <img 
-        className="d-block w-100 banner"
-        src={banner3}
-        alt="Third slide"
-      />
+    <img
+              className="d-block"
+              style={{ width: "100%", height: "100%", objectFit: "cover",backgroundRepeat:"no-repeat"}}
+              src={isMobile ? jewellerymobile : (isTablet ? jewellerytablet : jewellerydesktop)}
+              alt="First slide"
+            />
       </div>
 
       <Carousel.Caption>
@@ -58,11 +69,12 @@ function CarouselComponent() {
     <Carousel.Item>
     <div className='image-container'>
 
-      <img 
-        className="d-block w-100 banner"
-        src={banner4}
-        alt="Third slide"
-      />
+            <img
+              className="d-block"
+              style={{ width: "100%", height: "100%", objectFit: "cover",backgroundRepeat:"no-repeat"}}
+              src={isMobile ? booksmobile : (isTablet ? bookstablet : booksdesktop)}
+              alt="First slide"
+            />
       </div>
 
       <Carousel.Caption>
@@ -76,3 +88,5 @@ function CarouselComponent() {
 }
 
 export default CarouselComponent
+
+

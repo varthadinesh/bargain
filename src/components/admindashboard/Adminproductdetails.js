@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-// import { Link } from "react-router-dom";
-// import MyNavbar from "./navbar";
-// import Footer from "./footer";
 import { useCart } from "../CartContext";
 import Adminnavbar from "./Adminnavbar";
 import Adminfooter from "./Adminfooter";
@@ -14,24 +11,6 @@ export default function Adminproductdetails() {
   return (
     <div className="fullscreen">
       <Adminnavbar />
-      {/* <nav className="p-2 ps-lg-5 pe-lg-5">
-        <Link to="/" className="text-decoration-none text-dark">
-          <i className="bi bi-house-fill"></i>
-        </Link>
-        &nbsp; /{" "}
-        <Link to={"/" + type} className="text-decoration-none text-dark">
-          {type}
-        </Link>
-        /{" "}
-        <Link
-          to={"/" + productdetails.category}
-          className="text-decoration-none text-dark"
-        >
-          {productdetails.category}
-        </Link>{" "}
-        / {productdetails.name}
-      </nav> */}
-
       <main>
         {data.map((item, index) => (
           <div className="p-2 ps-lg-5 pe-lg-5 d-lg-flex">
@@ -98,13 +77,6 @@ export default function Adminproductdetails() {
                 <select className="form-select" style={{ width: "60px" }}>
                   <option value={1}>1</option>
                 </select>
-                {/* <button
-              type="submit"
-              className="btn btn-secondary ms-3"
-              onClick={() => addToCart(productdetails)}
-            >
-              {buttonText}
-            </button> */}
               </div>
               <button
                 type="button"

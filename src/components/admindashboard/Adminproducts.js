@@ -41,15 +41,6 @@ export default function Adminproducts() {
         <div className="col-md-10 ">
           <div className="fullscreen2">
             <main>
-              {/* <div className="d-flex justify-content-between m-2">
-                <h4>Products</h4>
-                <Link to="/addnewproduct">
-                  <button className="btn btn-primary">
-                    <i className="bi bi-plus-square-fill"></i> Add new product
-                  </button>
-                </Link>
-              </div> */}
-
               <div className="border m-3 rounded">
                 <div className="table-responsive p-3">
                   <table
@@ -163,7 +154,6 @@ export default function Adminproducts() {
                         <tr key={index}>
                           <td>{index+1}</td>
                           <td>{item.location}</td>
-                          {/* <td><img src={item.productimageurl} alt="product image" width="150" height="150"/></td> */}
                           <td> <Link to="/adminproductdetails"><img src={item.productimageurl} alt="product"  width="150" height="150"/></Link></td>
                           <td>{item.productname}</td>
                           <td>{item.price}</td>
@@ -184,24 +174,6 @@ export default function Adminproducts() {
                           </td>
                         </tr>
                       ))}
-                      {/* <tr role="row" className="">
-                        <td>No data available</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr> */}
-                      {/* <tr>
-                        <td> row 2</td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr> */}
                     </tbody>
                   </table>
                 </div>
@@ -225,28 +197,3 @@ export default function Adminproducts() {
   );
   
 }
-
-
-// {
-//   "id": 1,
-//   "name": "Wedding Reception Gown",
-//   "description":"The Wedding reception gown is from theeva.in customised reddish maroon colour, which gives grand look and heavy ,it is also comfortable for small and lite medium sized people . The actual price when we purchase is 105000 in January 2023. Bust 32-34 waist 28-32 length 128 cm and alternation scope-No",
-//   "location":"India",
-//   "color":"Reddish Maroon",
-//   "alteration":"No",
-//   "size":"XS",
-//   "measurements":"32-34",
-//   "worn":"1",
-//   "price": 19800,
-//   "category":"highendcouture",
-//   "producttype":"women",
-//   "image": "../images/women1.png",
-//   "subimages":[
-//     "../images/women1.png",
-//     "../images/women2.png",
-//     "../images/women3.png",
-//     "../images/women4.png",
-   
-//   ]
-  
-// },

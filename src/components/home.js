@@ -35,9 +35,9 @@ const Home = () => {
       <main>
       <CarouselComponent />
 
-      <h2 className="text-center p-2">Product Categories</h2>
+      <h4 className="p-2">Product Categories</h4>
       <Curosel />
-      <h2 className="text-center p-2">Featured Products</h2>
+      <h4 className=" p-2">Featured Products</h4>
       <div className="mt-4">
       
         <Carousel 
