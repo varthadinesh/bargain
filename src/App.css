@@ -46,14 +46,13 @@ body {
   height: 10px;
 }
 .image-container {
-  height: 280px;
+  height: 250px;
   width: 100%;
   overflow: hidden;
 }
 .banner {
   height: 100%;
   width: 100%;
-  background-size: cover;
 }
 .carouselslide {
   height: 450px;
